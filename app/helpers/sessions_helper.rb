@@ -1,2 +1,7 @@
+
 module SessionsHelper
-end
+
+    def current_user
+      session[:name]
+    end 
+  end
